@@ -1,0 +1,131 @@
+body {
+  background-image: url("https://source.unsplash.com/ttw2EsTM8VI");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.font1{
+  color: white;
+}
+.font2{
+  color: white;
+}
+.font3{
+  color: #ADD8E6;
+  
+  }
+.font4{
+    color: black;
+}
+.font5{
+  color: black;
+}
+.smaller{
+  width: 15%;
+}
+.smaller2{
+  width: 70%;
+}
+.border{
+  border-color: white;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 25%;
+}
+
+.pad{
+  padding: 0% 20% 0% 0%;
+}
+
+.pad2{
+  padding: 0% 0% 4% 1%;
+  margin: 0% 75% 0% 0%;
+}
+.underline{
+  text-decoration: underline;
+}
+
+#ddm1{
+  position: relative;
+}
+.tnail1{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 25%;
+  
+}
+nav.page-navigation{
+  position: fixed;
+}
+
+
+.bio {
+  text-align: center;
+  padding: 15px;
+}
+h3 {
+  font-size: 40px;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+#bio-pic {
+  padding: 10px;
+  margin: auto;
+  height: 320px;
+  width: 300px;
+}
+ul {
+  list-style-type: none;
+}
+.socials {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  margin: 50px;
+}
+#media {
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-size: 35px;
+}
+
+.sm {
+  color: black;
+}
+.my-work {
+  font-family: monospace;
+  font-size: 35px;
+  text-decoration: underline;
+}
+
+#port{
+  text-align: center;
+  
+}
+
+#dogs{
+  font-size: 32px;
+  color: black;
+}
+#jillyLe {
+  font-size: 32px;
+  color: #fff0f5;
+}
+
+.section {
+  padding: 30px;
+  margin-left: 775px;
+  margin-right: 775px;
+  background-image: url('https://source.unsplash.com/BCoRzs1x0xw');
+}
+
+/* Resume Styles */
+
+#background{
+  background-image: url('https://source.unsplash.com/1_CMoFsPfso');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.even-top {
+    text-align: center;
+}
