@@ -5,64 +5,28 @@ body {
 }
 .font1{
   color: white;
-}
-.font2{
-  color: white;
-}
-.font3{
-  color: #ADD8E6;
-  text-align: center;
-  
-  }
-.font4{
-    color: black;
-}
-.font5{
-  color: black;
-}
-.smaller{
-  width: 15%;
-}
-.smaller2{
-  width: 70%;
-}
-.border{
-  border-color: white;
-  border-width: 5px;
-  border-style: solid;
-  border-radius: 25%;
-}
-
-.pad{
-  padding: 0% 20% 0% 0%;
-}
-
-.pad2{
-  padding: 0% 0% 4% 1%;
-  margin: 0% 75% 0% 0%;
-}
-.underline{
   text-decoration: underline;
 }
 
-#ddm1{
-  position: relative;
-}
-.tnail1{
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 5px;
-  width: 25%;
-  
-}
+.font3{
+  color: #ADD8E6;
+  }
+
+
 nav.page-navigation{
   position: fixed;
+  padding: 3px;
+  margin: 0;
 }
 
+.container-fluid {
+  text-align: center;
+}
 
 .bio {
   text-align: center;
   padding: 15px;
+  text-decoration: underline;
 }
 h3 {
   font-size: 40px;
@@ -75,22 +39,73 @@ h3 {
   height: 320px;
   width: 300px;
 }
-ul {
+.nav-pills {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100px;
+  background-color: gray;
+  float: right;
 }
+.top-nav a {
+  color: gainsboro;
+  padding: 8px 12px;
+  text-decoration: none;
+}
+.active a {
+  color: gainsboro;
+  padding: 8px 12px;
+  text-decoration: none;
+}
+ul.nav li a:hover {
+  background-color: #555;
+  color: black;
+}
+
 .socials {
   text-align: center;
-  padding-top: 30px;
-  padding-bottom: 50px;
-  margin: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 5px;
 }
 #media {
   font-family: Brush Script MT, Brush Script Std, cursive;
   font-size: 35px;
 }
 
+
+.display .ulsocial li {
+  display: inline-block;
+}
+
+
+
 .sm {
-  color: black;
+  color: white;
+}
+.sm a {
+  color: white;
+  text-decoration: none;
+}
+
+#sm1 {
+  color: #FCAF45;
+  text-decoration: underline;
+}
+
+
+
+
+ul.ulsocial li:hover:nth-child(1) a {
+  color: #38A1F3;
+  background-color: white;
+  
+}
+
+ul.ulsocial li:hover:nth-child(2) a{
+  color:  #833AB4;
+  background-color: #E1306C;
+  
 }
 .my-work {
   font-family: monospace;
@@ -111,7 +126,7 @@ ul {
   font-size: 32px;
   color: #fff0f5;
 }
-
+/* Contact Styles */
 .section {
   padding: 30px;
   margin-left: 775px;
