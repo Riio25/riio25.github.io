@@ -1,9 +1,6 @@
 Resume:
-1. Use Crossarm black and white photo - Done
-2. List skills in ul - Done
-3. List past positions that had some relevance to web dev [chronologically] - Done
-4. List Accolades - Done
-5. Off-white background? - No
+1. Intro Paragraph says currently two much
+2. 1800Contacts
 
 Contact Page:
 1. Use Stark Banner Colors
