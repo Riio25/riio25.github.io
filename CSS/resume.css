@@ -26,6 +26,7 @@ html {
 header {
     width: 100%;
     position: fixed;
+    
 }
 nav {
     float: right;
