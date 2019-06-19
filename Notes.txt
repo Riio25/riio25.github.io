@@ -4,3 +4,15 @@ Resume:
 3. List past positions that had some relevance to web dev [chronologically] - Done
 4. List Accolades - Done
 5. Off-white background? - No
+
+Contact Page:
+1. Use Stark Banner Colors
+2. Get rid of the background images
+3. Fix Nav Bar
+
+Index Page:
+1. Fix Nav Bar
+2. Get rid of portolio link in nav Bar
+3. Use color scheme instead of background images
+4. Get rid of self portrait
+5. Make Portfolio more of a blog post?
