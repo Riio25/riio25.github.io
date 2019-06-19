@@ -155,14 +155,5 @@ footer {
   padding-bottom: 3%;
 }
 
-/* Resume Styles */
 
-#background{
-  background-image: url('https://source.unsplash.com/1_CMoFsPfso');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
-.even-top {
-    text-align: center;
-}
