@@ -24,15 +24,26 @@ html {
   /* Nav Bar */
 
 header {
-    width: 100%;
-    position: fixed;
+    margin-top: 50px;
     
 }
 nav {
-    float: right;
+   text-align: center;
+   background: #370003;
+   position: fixed;
+   top: 0;
+   width: 100%;
+}
+nav a {
+  display: inline-block;
+  padding: 15px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #eab64d;
 }
 
- li a {
+ /* li a { 
     text-decoration: none;
     color: #a32927;
  }
@@ -48,10 +59,10 @@ nav {
     border: 2px solid #370003;
     padding: 5px;
   }
-  
+  */
 
   
-
+/* Header & Footer */
 
   a:hover {
     text-decoration: none;
@@ -71,24 +82,21 @@ nav {
     margin-top: 0;
   }
   
+  h3 {
+    margin: 0;
+  }
+
   .content-wrap {
     max-width: 950px;
     margin: 0 auto;
-    padding: 50px;
+    padding: 60px 50px;
     overflow: hidden;
   }
   
-  .column-narrow {
-    width: 35%;
-    float: left;
-    padding-right: 3%;
-    min-height: 175px;
-  }
-  
-  .column-wide {
-    width: 62%;
-    float: left;
-    min-height: 175px;
+ 
+
+  .uppercase {
+    text-transform: uppercase;
   }
   
   /* Header & Footer */
@@ -122,12 +130,54 @@ nav {
   
   /* Work Experience */
   
+  h3 ~ p {
+    margin: 0;
+  }
+
   .work {
     background: #370003;
     color: #eab64d;
   }
-  
+  .job-description {
+    margin-bottom: 25px;
+  }
+  .job-description p:first-of-type {
+    margin-top: 0;
+  }
+  /* Education */
   .education {
     background: #eab64d;
     color: #370003;
+  }
+
+  p + h3 {
+    margin-top: 30px;
+  }
+
+
+
+  /* Media Queries */
+
+  @media (min-width: 860px){
+    .column-narrow {
+      width: 35%;
+      float: left;
+      padding-right: 3%;
+  
+    }
+    
+    .column-wide {
+      width: 62%;
+      float: left;
+    }
+
+  }
+
+  @media (max-width: 859px){
+    header {
+      text-align: center;
+    }
+    .profile-img {
+      width: 200px;
+    }
   }
