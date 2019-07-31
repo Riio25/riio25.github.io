@@ -2,50 +2,95 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Portfolio</title>
+  <title>One Page Portfolio</title>
+  <style>
+  html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}</style>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="CSS/portfolio.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css">
 </head>
-<body>
-  <main>
-    <div id="intro" class="intro">
-      <div class="h1">
-        <h1>Front End <span class="small">and aspiring Full Stack</span>Web Developer</h1>
-      </div>
-      <div>
-        <p>Currently a NASM Certified Personal Training working on front end skills.</p>
-        <p>Experience working with HTML5 CSS3 and JS.</p>
-        <p class="medium">My most recent focus has been learning AngularJS.</p>
-        <div class="links">
-          <span><a href="#projects">Want to see what I've worked on?</a></span>
-          <span style="display:block">or</span>
-          <span><a href="#life">Want to see what I do in my free time?</a></span>
+<body class="w3-light-grey"> 
+  <!-- Page Container -->
+  <div class="w3-content w3-margin-top" style="max-width:1400px;">
+    <!-- The Grid -->
+    <div class="w3-row-padding">
+      <!-- Left Column -->
+      <div class="w3-third">
+      <!-- Picture -->
+        <div class="w3-white w3-text-grey w3-card-4">
+          <div class="w3-display-container">
+            <img src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/64900205_10156236973435913_2174418362870792192_o.jpg?_nc_cat=110&_nc_oc=AQlcanN3hJlKEkGBedtGs9xVMWZJaiFoad6hsFTyqPM1c8wXZ80YDDMYWACjNgawgLM&_nc_ht=scontent-lax3-1.xx&oh=3aff8782a76f3b1aa3042dfe7572179a&oe=5DA71B9B" style="width:100%" alt="Profile Pic">
+            <!-- Name -->
+            <div class="w3-display-bottomleft w3-container w3-text-white">
+              <h2>Mario A. Noble</h2>
+            </div>
+          </div>
+          
+        
+        <div class="w3-container">
+        <!-- About me -->
+          <p><i class="fas fa-dumbbell w3-margin-right w3-large w3-text-black"></i>Certified Trainer/Web Developer</p>
+          <p><i class=" fa fa-home fa-fw w3-margin-right w3-large w3-text-black"></i>Provo, UT</p>
+          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-black"></i>MNoble25@hotmail.com</p>
+          <hr>
+          <p>
+            <b><i class="fa fa-square fa-fw w3-margin-right w3-text-black"></i>Skills</b></p>
+          <p>HTML5</p>
+          <p>CSS3</p>
+          <p>JavaScript</p>
+          <p></p>
+          <p></p>
+          <p></p>
         </div>
       </div>
-      <hr class="hr1">
     </div>
+      <br>
+      <!-- End of Left Column -->
     
-    <div class="colors">
-    <div id="projects" class="projects">
-      <h2>Projects I've worked on</h2>
-      <a href="https://riio25.github.io/tip-calculator/" target="_blank" class="pix1"><img src="https://i.imgur.com/seu7MQI.png" alt="Tip Calc Pic" class="pix1"></a>
-        <li><a href="https://riio25.github.io/tip-calculator/" target="_blank">Tip Calculator</a>           </li>
-        <a href="https://riio25.github.io/guess-number-game" target="_blank" class="pix1"><img src="https://i.imgur.com/6of12it.png" alt="Guessing Game Pic" class="pix1"></a>
-        <li><a href="https://riio25.github.io/guess-number-game" target="_blank">Guess a Number</a>         </li>
-        <li><a href="#">Wellness Dashboard </a><span class="small"> coming soon&#8482;</span></li>
+    <!-- Right Column -->
+    <div class="w3-twothird">
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-black w3-padding-16"><i class="fa fa-wrench fa-fw w3-margin-right w3-xxlarge w3-text-black"></i>Projects I've Worked On</h2>
+      <!-- Projects -->
+        <div class="w3-container">
+          <h5><a href="https://riio25.github.io/tip-calculator/" target="_blank"><b>Tip Calculator</b></a></h5>
+          <h6 class="w3-margin-right w3-opacity">Calculates tip and total amount based on percentage of the bill.</h6>
+          <p>Uses: HTML, CSS, JavaScript</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5><a href="https://riio25.github.io/guess-number-game/" target="_blank"><b>Guess a Number Game</b></a></h5>
+          <h6 class="w3-margin-right w3-opacity">Game where you try to correctly guess a random number between 1-10</h6>
+          <p>Uses: HTML, CSS, JavaScript</p>
+        </div>
+        <div class="w3-container">
+          <h5><a href=""><b>Wellness Center Dashboard</b></a> -coming soon&#8482;</h5>
+          <h6 class="w3-margin-right w3-opacity">Able to view Wellness Center data for desired timeframe.</h6>
+          <p>Uses: HTML, CSS, Express.js, SQL</p>
+        </div>
     </div>
-    <hr class="hr2">
-    
-    <div id="life" class="life">
-      <h2>I have a life too!</h2>
-      <p>I enjoy staying active. Playing sports, doing acrobatics, and working out in the gym.</p>
-      <div class="pictures">
-        <img src="https://scontent-lax3-1.xx.fbcdn.net/v/t31.0-8/14567590_1267574006626131_3025306039652311808_o.jpg?_nc_cat=100&_nc_oc=AQl6Vov1_WnRDMInPPUsKR8hRX9hqt6zQ1ozd-NdVSGduUsEMw-4RITB9I9mEIGeQSQ&_nc_ht=scontent-lax3-1.xx&oh=fc2329c49afec8867321a8fe42ccd830&oe=5DE53818" alt="Flag Football Team Pic">
-        <img src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/34687030_10155479424360913_8952908514477473792_n.jpg?_nc_cat=105&_nc_oc=AQkbYUSkmVxSXW5YwoUTWSBPdVkPSc13ok6Ofobx0QdApi9Do2yKi14YlApIuTCkiJk&_nc_ht=scontent-lax3-1.xx&oh=5f2e678086c3b1101afc2894d06554de&oe=5DEDC983" alt="Spikeball Action Shot">
-        <img src="" alt="Acro Pic">
-      </div>
+    <!-- Outside Work -->
+    <div class="w3-container w3-card w3-white">
+      <h2 class="w3-text-black w3-padding-16"><i class="fas fa-running w3-margin-right w3-xxlarge w3-text-black"></i>Things I do for fun:</h2>
+      <div></div>
+      <div></div>
+      <div></div>
     </div>
+    <!-- End Right Column -->
     </div>
-  </main>
   
+  
+  <!-- End of Grid -->
+  </div>
+  
+  <!-- End of Page Container -->
+  </div>
+  <footer class="w3-container w3-black w3-center w3-margin-top">
+    <p>Find me on social media.</p>
+      <a href="https://twitter.com/superriio25" target="_blank"><i class="fab fa-twitter w3-hover-opacity"></i></a>
+      <a href="https://www.linkedin.com/in/mario-noble/" target="_blank"><i class="fab fa-linkedin-in w3-hover-opacity"></i></a>
+      <a href="https://github.com/riio25" target="_blank"><i class="fab fa-github w3-hover-opacity"></i></a>
+  </footer>
 </body>
 </html>
