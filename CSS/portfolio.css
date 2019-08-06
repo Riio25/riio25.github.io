@@ -21,8 +21,8 @@ a {
 }
 
 a:hover {
-  color: blue;
-  text-decoration: underline;
+  border-bottom: 3px #673ab7 solid;
+
 }
 
 img {
